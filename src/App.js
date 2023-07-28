@@ -1,9 +1,10 @@
 import './App.css';
+import NoteContainer from './Components/NoteContainer/NoteContainer';
 
 function App() {
   return (
     <>
-    working
+    <NoteContainer/>
     </>
 
   );
