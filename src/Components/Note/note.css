@@ -2,7 +2,7 @@
     height: 40vh;
     width: 40vh;
     padding: 20px;
-    background-color: brown;
+    background-color: red;
     border-radius: 30px;
     display: flex;    
     flex-direction: column;    
@@ -17,4 +17,7 @@
     font-size: 1.5rem;
     column-width: 20px;
     color: white;
+}
+.note_time{
+    text-align: center;
 }

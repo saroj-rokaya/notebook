@@ -1,0 +1,30 @@
+.note_container{
+    height: 100%;
+}
+
+/* note container's notes  styles */
+.note_container_notes{
+    height: 90%;
+    display: flex;
+    flex-wrap: wrap;
+    gap: 20px;
+    overflow-y: scroll;
+
+}
+
+/* custom scrollbar for the notes */
+.notes_scrollbar::-webkit-scrollbar{
+    width: 10px;
+}
+.notes_scrollbar::-webkit-scrollbar-track{
+    background-color: transparent;
+}
+.notes_scrollbar::-webkit-scrollbar-thumb{
+    border-radius: 10px;
+    background-color: gray;
+    transition: 300ms;
+}
+.notes_scrollbar::-webkit-scrollbar-track:hover{
+    background-color: rgb(185, 184, 184);
+    border-radius: 10px;
+}

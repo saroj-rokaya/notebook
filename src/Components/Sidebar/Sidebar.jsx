@@ -1,10 +1,9 @@
 import React from 'react'
 import "./sidebar.css";
-
-export default function Sidebar() {
+import AddCircleSharpIcon from '@mui/icons-material/AddCircleSharp';export default function Sidebar() {
   return (
-    <div>
-      hello i am a Sidebar
+    <div className="plus_icon">
+      <AddCircleSharpIcon sx={{ fontSize: 80 }}/>
     </div>
   )
 }

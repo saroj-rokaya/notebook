@@ -1,0 +1,9 @@
+.app{
+    height: 100vh;
+    display: flex;
+    gap: 20px;
+    padding: 20px;
+}
+/* .notes_scrollbar::-webkit-scrollbar{
+    width: px;
+} */
