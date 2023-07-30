@@ -7,6 +7,7 @@ export default function Note(props) {
       <textarea className="note_textarea">{props.note.text}</textarea>
       <p className="note_time">{props.note.time}</p>
       
+      
     </div>
   )
 }

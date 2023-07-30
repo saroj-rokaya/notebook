@@ -2,7 +2,7 @@
     height: 40vh;
     width: 40vh;
     padding: 20px;
-    background-color: red;
+    /* background-color: brown; */
     border-radius: 30px;
     display: flex;    
     flex-direction: column;    
@@ -20,4 +20,25 @@
 }
 .note_time{
     text-align: center;
+}
+
+/* own scroll bar for the text area */
+
+.note_textarea::-webkit-scrollbar{
+    width: 10px;
+}
+.note_textarea::-webkit-scrollbar-track{
+    background-color: transparent;
+}
+.note_textarea::-webkit-scrollbar-thumb{
+    border-radius: 10px;
+    background-color: gray;
+    transition: 300ms;
+}
+/* .note_textarea::-webkit-scrollbar-thumb:hover{
+    cursor: pointer;
+} */
+.note_textarea::-webkit-scrollbar-track:hover{
+    background-color: rgb(185, 184, 184);
+    border-radius: 10px;
 }

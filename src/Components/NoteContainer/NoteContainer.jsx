@@ -10,47 +10,47 @@ export default function NoteContainer() {
         <Note note={{        
             text:"saroj",
             time:"12:12 PM",
-            color:"red" 
+            color:"green" 
             }}/>
         <Note note={{        
             text:"saroj",
             time:"12:12 PM",
-            color:"red" 
+            color:"green" 
             }}/>
         <Note note={{        
             text:"saroj",
             time:"12:12 PM",
-            color:"red" 
+            color:"green" 
             }}/>
         <Note note={{        
             text:"saroj",
             time:"12:12 PM",
-            color:"red" 
+            color:"green" 
             }}/>
         <Note note={{        
             text:"saroj",
             time:"12:12 PM",
-            color:"red" 
+            color:"green" 
             }}/>
         <Note note={{        
             text:"saroj",
             time:"12:12 PM",
-            color:"red" 
+            color:"green" 
             }}/>
         <Note note={{        
             text:"saroj",
             time:"12:12 PM",
-            color:"red" 
+            color:"green" 
             }}/>
         <Note note={{        
             text:"saroj",
             time:"12:12 PM",
-            color:"red" 
+            color:"green" 
             }}/>
         <Note note={{        
             text:"saroj",
             time:"12:12 PM",
-            color:"red" 
+            color:"green" 
             }}/>
         </div>
     </div>
