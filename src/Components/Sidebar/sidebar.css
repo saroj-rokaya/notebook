@@ -1,1 +1,32 @@
-
+.sideBar{
+    display: flex;
+    flex-direction: column;
+    gap: 40px;
+   
+}
+/* .plus{
+    background-color: red;
+} */
+.sideBar,.sideBar-list{
+    display: flex;
+    /* width: 2rem; */
+    /* height: 8rem; */
+    flex-direction: column;
+    align-items: center;
+    gap: 20px;
+    cursor: pointer;
+    /* align-items: center; */
+    height: 0;
+    transition: 300ms;
+}
+.sideBar-list-active{
+    height: 300px;
+}
+.sideBar-list-items{
+    
+    border-radius: 50%;
+    height: 2rem;
+    width: 2rem;
+    
+    list-style: none;
+}
