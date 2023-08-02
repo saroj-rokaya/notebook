@@ -1,7 +1,10 @@
 .note_container{
     height: 100%;
+    /* gap: 20px; */
 }
-
+h2{
+    margin-bottom: 20px;
+}
 /* note container's notes  styles */
 .note_container_notes{
     height: 90%;
