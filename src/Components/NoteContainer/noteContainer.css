@@ -2,8 +2,10 @@
     height: 100%;
     /* gap: 20px; */
 }
-h2{
-    margin-bottom: 20px;
+h1{
+    
+    margin-bottom: 40px;
+    
 }
 /* note container's notes  styles */
 .note_container_notes{

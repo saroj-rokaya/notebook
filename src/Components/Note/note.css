@@ -42,3 +42,24 @@
     background-color: rgb(185, 184, 184);
     border-radius: 10px;
 }
+
+
+/* //footernote style */
+
+.note_footer{
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.delete_icon{
+    opacity: 30%;
+    transition: 900ms;
+    cursor: pointer;
+}
+.delete_icon:hover{
+    color: black;
+    font-size: 29px;
+    cursor: pointer;
+    opacity: 100%;
+}

@@ -2,7 +2,7 @@ import React, { useState } from "react";
 import "./sidebar.css";
 import AddCircleSharpIcon from "@mui/icons-material/AddCircleSharp";
 export default function Sidebar(props) {
-  const colors = ["red", "blue", "lightgreen", "yellow", "cyan"];
+  const colors = ["tomato", "rosybrown", "orange",  "goldenrod", "hotpink", "magenta", "chocolate","lightblue","mediumaquamarine","lightgreen", "pink"];
   const [listOpen, setlistOpen] = useState(false);
   return (
     <div className="sideBar">

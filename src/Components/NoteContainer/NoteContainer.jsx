@@ -15,11 +15,11 @@ export default function NoteContainer(props) {
 
   return (
     <div className="note_container">
-      <h2>Notes</h2>
+      <h1>Notes</h1>
       <div className="note_container_notes notes_scrollbar">
-        {notes.map((item, index) => (
-          <Note key={index} note={item} />
-        ))}
+        {notes?.length>0?notes.map((item) => (
+          <Note key={item.id} note={item} />
+        )): <h3>Create Notebook</h3> }
       </div>
     </div>
   );
