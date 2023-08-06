@@ -18,7 +18,9 @@ export default function NoteContainer(props) {
       <h1>Notes</h1>
       <div className="note_container_notes notes_scrollbar">
         {notes?.length>0?notes.map((item) => (
-          <Note key={item.id} note={item} />
+          <Note key={item.id} note={item} 
+          deleteNote={props.deleteNote}
+          />
         )): <h3>Create Notebook</h3> }
       </div>
     </div>
